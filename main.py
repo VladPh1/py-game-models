@@ -24,7 +24,7 @@ def main() -> None:
                 )
                 print(created)
 
-        skill_list = race_data.get("skills", []) \
+        skill_list = race_data.get("skills", [])
             if isinstance(race_data, dict) else []
 
         if race_instance:
