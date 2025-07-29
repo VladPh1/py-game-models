@@ -61,8 +61,6 @@ def main() -> None:
             print(created_guild)
 
         player_actual_nickname = player_info.get("nickname", player_key)
-        player_email = player_info.get("email")
-        player_bio = player_info.get("bio")
 
         if not player_actual_nickname:
             print("Error, nickname not found {player_key}.")
